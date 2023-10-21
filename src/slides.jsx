@@ -6,7 +6,7 @@ import Arrow1 from './assets/Arrow1.svg'
 
 const Slides = () => (
   <section class='slides'>
-    <div class='slide__container'>
+    
       <div class='slide'>
         <img src={Imagen2} alt='imagen' class='imagen1' />
         <p class='info'>La Cuidad de las Flores</p>
@@ -32,7 +32,7 @@ const Slides = () => (
         <h2 class='pagination'>VIEW ALL COMPOSITIONS</h2>
         <img class='img2 arrow' src={Arrow1} alt='arrow' />
       </div>
-    </div>
+    
   </section>
 )
 

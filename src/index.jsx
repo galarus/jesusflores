@@ -27,6 +27,8 @@ import Twitter from './assets/twitter.svg'
 import Youtube from './assets/youtube.svg'
 import Spotify from './assets/spotify.svg'
 import Cursor from './assets/cursor.svg'
+import Instagram from './assets/instagram.svg'
+
 
 export function App () {
   return (
@@ -197,13 +199,14 @@ export function App () {
           <div class='icons'>
             <img src={Facebook} alt='facebook' class='facebook' />
             <img
-              src='./assets/instagram.svg'
+              src= {Instagram}
               alt='instagram'
               class='instagram'
             />
             <img src={Twitter} alt='twiter' class='twiter' />
             <img src={Youtube} alt='youtube' class='youtube' />
             <img src={Spotify} alt='spotify' class='spotify' />
+            
           </div>
 
           <div class='galeria__imagenes'>

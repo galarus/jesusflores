@@ -16,15 +16,16 @@ body {
 }
 
 .contenedor {
-  width: 1920px;
-  margin: 0 auto;
+  width: 100%;
+  
+  
 }
 
 .nav__bar {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  column-gap: 60px;
+  justify-content: space-between;
   margin-top: 52px;
   margin-left: 40px;
   text-transform: uppercase;
@@ -45,23 +46,26 @@ body {
   letter-spacing: 1.8px;
   word-wrap: break-word;
   margin-right: 160px;
-  position: relative;
-  top: 30px;
-  left: 40px;
+  position: absolute;
+  top: 7vh;
+  left: 5vw;
   white-space: nowrap;
   z-index: 10;
 }
 
 .img__container {
+  
   background-image: url(./assets/Video.png);
   height: 800px;
-  width: 88%;
+  width: 88vw;
   background-size: cover;
   background-position: center center;
   position: absolute;
   right: 0;
   top: 0;
   object-fit: contain;
+  
+  
 }
 
 .slides {
@@ -69,9 +73,8 @@ body {
   flex-wrap: wrap;
   flex-direction: row;
   column-gap: 39px;
-  position: relative;
   left: 13vw;
-  top: 300px;
+  top: 30vh;
 }
 
 .slide .info {
@@ -205,48 +208,65 @@ body {
 }
 
 .sound__icon {
-  margin-left: 8px;
-  padding-top: 16px;
+  position: relative;
+  bottom: 2px;
 }
 
-.slide__container {
-  display: flex;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  column-gap: 40px;
-  right: 60px;
+.icon__box {
   position: relative;
-  right: 65px;
+  bottom: 5px;
+}
+.slides {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: right;
+  position: relative;
+  left: 4%;
+  
+  
+  
+  
 }
 
 .img {
   position: relative;
-  right: 90px;
+  
+
 }
 
 .pagination {
   position: relative;
-  left: 110px;
-  bottom: 40px;
+  left: 10px;
+  top: 2px;
+  
 }
 
 .img2 {
   position: relative;
-  left: 440px;
-  bottom: 80px;
+  left: 1%;
+  top: 2px;
+  
 }
 
 .slide__bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   word-wrap: break-word;
   column-gap: 16px;
   position: relative;
-  right: 200px;
-  bottom: 50px;
+  top: 25vh;
+  right: 50vw;
+  transform: translateX(15%);
+  
+  
 }
 
 .arrow {
   position: relative;
-  left: 295px;
+  left: 10px;
   bottom: 40px;
 }
 
@@ -1263,3 +1283,7 @@ body {
 
 }
 */
+@media (max-width: 1800px) {
+  
+}
+
