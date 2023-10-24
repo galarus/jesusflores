@@ -5,15 +5,12 @@ html,
 body {
   color: white;
   background-color: #070a0b;
-  min-height: 100%;
+  max-height: 100%;
   width: 100%;
-}
-
-html,
-body {
   max-width: 100%;
   overflow-x: hidden;
 }
+
 
 .contenedor {
   width: 100%;
@@ -45,12 +42,12 @@ body {
   text-transform: uppercase;
   letter-spacing: 1.8px;
   word-wrap: break-word;
-  margin-right: 160px;
-  position: absolute;
-  top: 7vh;
-  left: 5vw;
+  
+
   white-space: nowrap;
   z-index: 10;
+  margin-top: 2.4%;
+  margin-left: 2.4%;
 }
 
 .img__container {
@@ -63,7 +60,8 @@ body {
   position: absolute;
   right: 0;
   top: 0;
-  object-fit: contain;
+  
+
   
   
 }
@@ -73,8 +71,10 @@ body {
   flex-wrap: wrap;
   flex-direction: row;
   column-gap: 39px;
-  left: 13vw;
-  top: 30vh;
+  justify-content: right;
+  position: relative;
+
+  
 }
 
 .slide .info {
@@ -222,7 +222,8 @@ body {
   align-items: flex-end;
   justify-content: right;
   position: relative;
-  left: 4%;
+  
+  transform: translateX(-20%);
   
   
   
@@ -258,8 +259,8 @@ body {
   column-gap: 16px;
   position: relative;
   top: 25vh;
-  right: 50vw;
-  transform: translateX(15%);
+  right: 30vw;
+  transform: translateX(-5%);
   
   
 }
@@ -1222,6 +1223,12 @@ body {
   word-wrap: break-word;
 }
 
+.icon2 {
+  position: relative;
+  top: 8000px;
+  z-index: 10;
+}
+
 .Jesus4 {
   white-space: nowrap;
 }
@@ -1283,7 +1290,66 @@ body {
 
 }
 */
-@media (max-width: 1800px) {
+
+@media (max-width: 1875px) {
+  .slides {
+    transform: translateX(-800px);
+    
+  }
+
   
+    
+    
 }
+
+@media (max-width: 1400px) {
+  .slides {
+    transform: translateX(-700px);
+  }
+}
+@media (max-width: 1214px) {
+
+  .nav__bar {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 5%;
+    
+  }
+  .productions {
+    position: relative;
+    right: 7.5%;
+  }
+  .jesus {
+    position: relative;
+    left: 14vw;
+
+  }
+
+  .sound__icon {
+    position: relative;
+    top: 15px;
+  }
+  
+
+
+}
+
+@media (max-width: 1100px) {
+  .slides {
+    display: flex;
+    flex-direction: column;
+  }
+  .contenedor {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
 
