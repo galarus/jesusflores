@@ -11,11 +11,12 @@ body {
   overflow-x: hidden;
 }
 
-
 .contenedor {
-  width: 100%;
-  
-  
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 
 .nav__bar {
@@ -42,7 +43,6 @@ body {
   text-transform: uppercase;
   letter-spacing: 1.8px;
   word-wrap: break-word;
-  
 
   white-space: nowrap;
   z-index: 10;
@@ -51,7 +51,6 @@ body {
 }
 
 .img__container {
-  
   background-image: url(./assets/Video.png);
   height: 800px;
   width: 88vw;
@@ -60,10 +59,6 @@ body {
   position: absolute;
   right: 0;
   top: 0;
-  
-
-  
-  
 }
 
 .slides {
@@ -73,8 +68,6 @@ body {
   column-gap: 39px;
   justify-content: right;
   position: relative;
-
-  
 }
 
 .slide .info {
@@ -222,32 +215,24 @@ body {
   align-items: flex-end;
   justify-content: right;
   position: relative;
-  
+
   transform: translateX(-20%);
-  
-  
-  
-  
 }
 
 .img {
   position: relative;
-  
-
 }
 
 .pagination {
   position: relative;
   left: 10px;
   top: 2px;
-  
 }
 
 .img2 {
   position: relative;
   left: 1%;
   top: 2px;
-  
 }
 
 .slide__bar {
@@ -261,8 +246,6 @@ body {
   top: 25vh;
   right: 30vw;
   transform: translateX(-5%);
-  
-  
 }
 
 .arrow {
@@ -1294,12 +1277,7 @@ body {
 @media (max-width: 1875px) {
   .slides {
     transform: translateX(-800px);
-    
   }
-
-  
-    
-    
 }
 
 @media (max-width: 1400px) {
@@ -1308,13 +1286,11 @@ body {
   }
 }
 @media (max-width: 1214px) {
-
   .nav__bar {
     display: flex;
     flex-direction: column;
     position: relative;
     top: 5%;
-    
   }
   .productions {
     position: relative;
@@ -1323,16 +1299,12 @@ body {
   .jesus {
     position: relative;
     left: 14vw;
-
   }
 
   .sound__icon {
     position: relative;
     top: 15px;
   }
-  
-
-
 }
 
 @media (max-width: 1100px) {
@@ -1344,12 +1316,3 @@ body {
     width: 100%;
   }
 }
-
-
-
-
-
-
-
-
-
