@@ -204,12 +204,15 @@ export function App () {
           </div>
 
           <div class='galeria__imagenes'>
-            <img src={ImagenGaleria1} alt='imagen' class='imagen__1' />
-            <img src={ImagenGaleria2} alt='imagen' class='imagen__2' />
-            <img src={ImagenGaleria3} alt='imagen' class='imagen__3' />
-            <img src={ImagenGaleria4} alt='imagen' class='imagen__4' />
-            <img src={ImagenGaleria5} alt='imagen' class='imagen__5' />
-            <img src={ImagenGaleria6} alt='imagen' class='imagen__6' />
+
+  
+            <img src={ImagenGaleria1} alt='imagen' class=' galeria imagen__1' />
+            <img src={ImagenGaleria2} alt='imagen' class='galeria imagen__2' />
+            <img src={ImagenGaleria3} alt='imagen' class='galeria imagen__3' />
+            <img src={ImagenGaleria4} alt='imagen' class='galeria imagen__4' />
+            <img src={ImagenGaleria5} alt='imagen' class='galeria imagen__5' />
+            <img src={ImagenGaleria6} alt='imagen' class='galeria imagen__6' />
+            
           </div>
         </section>
         <section class='Contacto'>
@@ -253,23 +256,26 @@ export function App () {
             <h2 class='company'>COMPANY</h2>
             <h2 class=' info1 Productions'>Productions</h2>
             <h2 class='info1 services'>Services</h2>
+            <h2 class='terms privacy__policy'>Privacy Policy</h2>
           </div>
           <div class='info__row2'>
             <h2 class='company'>UPDATES</h2>
             <h2 class=' info1 NFTs'>NFTs</h2>
             <h2 class='info1 News'>News</h2>
+            <h2 class='terms terms__service'>Terms of service</h2>
           </div>
           <div class='info__row3'>
             <h2 class='company'>JESUS F</h2>
             <h2 class='info1 About'>About Me</h2>
             <h2 class='info1 contact4'>Contact</h2>
+            <h2 class='terms cookie__policy'>Cookie Policy</h2>
           </div>
         </div>
 
         <div class='privacy__terms'>
-          <h2 class='terms privacy__policy'>Privacy Policy</h2>
-          <h2 class='terms terms__service'>Terms of service</h2>
-          <h2 class='terms cookie__policy'>Cookie Policy</h2>
+          
+          
+          
         </div>
       </footer>
     </div>
